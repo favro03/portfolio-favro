@@ -1,12 +1,12 @@
 import React from "react";
-import heroImage from "../../assets/cover/hero.jpg";
+import heroImage from "../../assets/hero.jpg";
 
 function About(){
 
     return(
         <section className="my-5">
-            <h1>About</h1>
-            <img src={heroImage} className="my-2" style={{ width: "100%" }} alt="cover"  />
+            <h1>About Me</h1>
+            <img src={heroImage} className="my-2" style={{ width: "100%" }} alt="hero"  />
             <div className="my-2">
                     <p>
                     I am a Information Security professional with nine years industry experience and thirteen years project management experience. 
