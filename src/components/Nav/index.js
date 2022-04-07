@@ -11,7 +11,7 @@ function Nav () {
           <ul className="flex-row">
                       <li><a className="mx-2" href="#about">About Me</a></li>
                       <li><a className="mx-2" href="#web">Portfolio</a></li>
-                      <li><a className="mx-2" href="#portfolio">Content</a></li>
+                      <li><a className="mx-2" href="#portfolio">Contact</a></li>
                       <li><a className="mx-2" href="#contact">Resume</a></li>
                   </ul>
               

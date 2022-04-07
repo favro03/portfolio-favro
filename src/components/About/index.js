@@ -4,7 +4,7 @@ import heroImage from "../../assets/hero.jpg";
 function About(){
 
     return(
-        <section className="my-5">
+        <section className="hero my-5">
             <h1>About Me</h1>
             <img src={heroImage} className="my-2" style={{ width: "100%" }} alt="hero"  />
             <div className="my-2">

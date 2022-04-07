@@ -35,7 +35,30 @@ main {
 * {
   box-sizing: border-box;
 }
+*Hero Section Styling*/
+.hero {
+    background-image: url(../src/assets/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    background-position: 80%;
+    position: relative;
+    
+   
+}
 
+.hero h2 {
+    position: absolute;
+    bottom:30px;
+    right: 100px;
+    background-color: var(--secondary-color);
+    font-weight: bold;
+    padding: 20px 20px;
+}
+/*End Hero Section*/
 
 html,
 body {
