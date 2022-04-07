@@ -1,28 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logoImage from "../../assets/initial-black.png";
-import About from '../About';
+
 
 
 function Nav (props) {
-  const {
-  
-    
- 
-    contactSelected,
-    setContactSelected
-  } = props;
-    return (
+ const headings = ['About', 'Portfolio', 'Contact', 'Resume'];
+  const{
+    currentPage,
+    handlePageChange
+  }=props;
+ return (
         <header>
             <img  src={logoImage} className="my-2" style={{ width: "8%"}} alt="logo"  />
-        <nav>
-          <ul className="flex-row">
-            <li className="mx-2"><a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>About me</a></li>
-            <li><a className="mx-2" href="#web">Portfolio</a></li>
-            <li><a className="mx-2"><span onClick={() => setContactSelected(true)}>Contact</span></a></li>
-            <li><a className="mx-2" href="#contact">Resume</a></li>
-          </ul>
-              
-        </nav>
+          <nav >
+            <div className="container-fluid">
+               
+                <div >
+                    <ul flex-row>
+                        {headings.map((headings, index) => (
+                            <li key={index} className="nav-item">
+                                <a className={`nav-link + ${headings === currentPage && 'active'}`} aria-current="page" href={`#${headings.toLocaleLowerCase}`}onClick={() => handlePageChange(headings)}>{headings}</a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
+          </nav>
       </header>
     );
   }
