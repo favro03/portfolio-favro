@@ -394,3 +394,23 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 /*end header*/
+/*Footer*/
+footer {
+  height: 85px;
+  width: 100%;
+}
+
+.page-footer {
+  background: linear-gradient(
+      rgba(0, 0, 0, 1), 
+      rgba(0, 0, 0, 1));
+}
+
+.footer-span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.center {
+  text-align: center;
+}
+
