@@ -10,6 +10,7 @@ function Nav (props) {
     handlePageChange
   }=props;
  return (
+
         <header>
             <img  src={logoImage} className="my-2" style={{ width: "8%"}} alt="logo"  />
           <nav >
