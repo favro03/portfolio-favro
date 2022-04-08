@@ -4,8 +4,8 @@ import Nav from './components/Nav';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-import './App.css';
-import './index.css';
+import Portfolio from './components/Portfolio';
+
 
 function App() {
   const [currentPage, handlePageChange] = useState('About');
@@ -13,7 +13,7 @@ function App() {
   const renderPage = () => {
     switch(currentPage) {
       case 'About': return <About />;
-      // case 'Portfolio': return <Portfolio />;
+      case 'Portfolio': return <Portfolio />;
       case 'Contact': return <ContactForm />;
       case 'Resume': return <Resume />
       default: return;
