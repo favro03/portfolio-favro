@@ -9,9 +9,10 @@ http://www.templatemo.com/tm-498-stimulus
 body {
 	background: #ffffff;
   font-family: Helvetica, Arial sans-serif;
-    font-style: normal;
-	 font-weight: 900;
-    overflow-x: hidden;
+  color: black;
+  font-style: normal;
+	font-weight: 900;
+  overflow-x: hidden;
 }
 
 html,body {
@@ -27,6 +28,7 @@ html,body {
 h1,h2,h3,h4,h5,h6 {
   font-style: normal;
   font-weight: 300;
+  color: black;
 }
 
 h1,h2,h3 {
@@ -50,7 +52,7 @@ h2 {
 
 
 h3 {
-  color: #Black;
+  color: black;
   font-size: 20px;
   font-weight: normal;
   letter-spacing: 2px;
@@ -59,11 +61,11 @@ h3 {
 }
 
 h5 {
-  color: #666666;
+  color: black;
 }
 
 strong {
-  color: #232B2B;
+  color: black;
   font-weight: normal;
 }
 
@@ -79,7 +81,7 @@ p {
   background-color: transparent;
   border: 3px solid #232B2B;
   border-radius: 100px;
-  color: #232B2B;
+  color: black;
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 1.6px;
@@ -107,8 +109,9 @@ p {
 
 .section-title {
   position: relative;
-  background: #FDDFD8;
-  opacity: 0.6;
+  background: #E3AE57;
+  color: black;
+  opacity: 0.4;
 }
 
 #about,
@@ -159,6 +162,9 @@ footer {
     left: 0;
 }
 
+.color-black{
+  color: black;
+}
 .color-white {
   color: #ffffff;
 }
@@ -371,17 +377,15 @@ header nav ul li a {
 #home .home-img {
   background: url('../src/assets/hero.jpg') no-repeat;
   background-size: cover;
-
+  color: black;
   width: 100%;
   height: 100vh;
-
- 
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    /* background-attachment: fixed; */
-    background-position: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  /* background-attachment: fixed; */
+  background-position: 80%;
 }
 
 
@@ -393,42 +397,13 @@ header nav ul li a {
   margin-top: 5%;
   font-size: 18px;
   line-height: 1.2;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: black;
   display: flex;
   height: 100vh;
   
 }
 
-/*---------------------------------------
-   About section              
------------------------------------------*/
 
-#about .about-img {
-    background: url('../images/about-img.jpg') no-repeat;
-}
-
-#about .about-thumb,
-#about .skill-thumb {
-  padding: 22px 32px 32px 32px;
-}
-
-#about .progress {
-  background: #ffffff;
-  border-radius: 0px;
-  box-shadow: none;
-  height: 2px;
-}
-
-#about .progress-bar-primary {
-  background: #232B2B;
-}
-
-#about strong,
-#about span {
-  font-weight: bold;
-  display: inline-block;
-  padding-bottom: 8px;
-}
 
 
 
@@ -605,7 +580,22 @@ header nav ul li a {
 #contact .fa {
   padding-right: 10px;
 }
-
+form {
+  width: 40%;
+}
+input {
+  width: 122%;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
 
 
 /*---------------------------------------

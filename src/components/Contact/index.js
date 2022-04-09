@@ -37,29 +37,44 @@ function ContactForm() {
       
 
         return (
-            <section>
-              <h1>Contact me</h1>
-              <form id="contact-form" onSubmit={handleSubmit}>
-                  
-                <div>
-                  <label htmlFor="name">Name:</label>
-                  <input type="text" defaultValue={name} onChange={handleChange} onBlur={handleChange} name="name" />
-                </div>
-                <div>
-                  <label htmlFor="email">Email address:</label>
-                  <input type="email" defaultValue={email} name="email" onChange={handleChange} onBlur={handleChange}/>
-                </div>
-                <div>
-                  <label htmlFor="message">Message:</label>
-                  <textarea name="message" defaultValue={message} onChange={handleChange} onBlur={handleChange} rows="5" />
-                </div>
-                {errorMessage && (
+          <section id="contact" class="parallax-section">
+          <div class="container">
+               <div class="row">
+     
+                    <div class="col-md-6 col-sm-12">
+                         <div class="contact-form">
+                              <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                                   <h1 class="color-black">Contact Me</h1>
+                                  
+                              </div>
+              <div id="contact-form">
+                <form id="contact-form" onSubmit={handleSubmit}>  
                   <div>
-                    <p className="error-text">{errorMessage}</p>
+                    <label htmlFor="name">Name:</label>
+                    <input className="form-control" type="text" defaultValue={name} onChange={handleChange} onBlur={handleChange} name="name" />
                   </div>
-                )}
-                <button type="submit">Submit</button>
-              </form>
+                  <div>
+                    <label htmlFor="email">Email address:</label>
+                    <input className="form-control" type="email" defaultValue={email} name="email" onChange={handleChange} onBlur={handleChange}/>
+                  </div>
+                  <div>
+                    <label htmlFor="message">Message:</label>
+                    <input className="form-control" name="message" defaultValue={message} onChange={handleChange} onBlur={handleChange} rows="5" />
+                  </div>
+                  {errorMessage && (
+                    <div>
+                      <p className="error-text">{errorMessage}</p>
+                    </div>
+                  )}
+                  <div class="wow fadeInUp col-md-6 col-sm-8" data-wow-delay="1.6s">
+                    <input name="submit" type="submit" class="form-control" id="submit" value="Send"/>
+                  </div>
+                </form>
+                </div>
+                </div>
+                </div>
+                </div>
+              </div>
             </section>
         );
 

@@ -18,10 +18,12 @@ function About(){
                                         
                                         <h3 >
                                         <h1>About Me</h1>
-                                        I am a Information Security professional with ten years industry experience and thirteen years project management experience. 
+                                        I am a Information Security professional with ten years industry experience and fourteen years project management experience. 
                                         Highly skilled in risk assessment, risk management, and risk analysis. <br></br><br></br>
                                         
-                                        Knowledge of industry standard risk analysis tools and methodology. Pre and post data breach experience. <br></br>
+                                        Knowledge of industry standard risk analysis tools and methodology. Pre and post data breach experience. <br></br><br></br>
+
+                                        New full stack developer with knowldge in css, html, express, node.js, mongoDB and mySQL.
                                         
                                         
                                         </h3>
