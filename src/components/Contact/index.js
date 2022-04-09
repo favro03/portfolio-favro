@@ -40,7 +40,7 @@ function ContactForm() {
      
                     <div className="col-md-6 col-sm-12 ">
                          <div className="contact-form">
-                              <div clclassNameass="wow fadeInUp " data-wow-delay="0.2s">
+                              <div className="wow fadeInUp " data-wow-delay="0.2s">
                                    <h1 className="color-black">Contact Me</h1>
                                   
                               </div>
