@@ -110,7 +110,11 @@ p {
 .section-title {
   position: relative;
   background: #E3AE57;
+  opacity: 0.4;
   color: black;
+}
+.background {
+  background: #E3AE57;
   opacity: 0.4;
 }
 
@@ -519,7 +523,9 @@ header nav ul li a {
 -----------------------------------------*/
 
 #contact {
-  background: #E9724C;
+  
+  background: #E3AE57;
+  opacity: 0.4;
 }
 
 #contact .contact-form,
@@ -528,31 +534,25 @@ header nav ul li a {
   min-height: 75vh;
 }
 
-#contact .contact-img {
-  background: url('../images/contact-img.jpg') no-repeat;
-  min-height: 75vh;
-}
 
 #contact .contact-info {
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
-#contact .form-control::-moz-placeholder{color:#ffffff;opacity:1}
-#contact .form-control:-ms-input-placeholder{color:#ffffff}
-#contact .form-control::-webkit-input-placeholder{color:#ffffff}
 
 #contact .form-control {
-  background: transparent;
+
   border: none;
   border-bottom: 1px solid #E3AE57;
   border-radius: 0px;
   box-shadow: none;
-  color: #ffffff;
+  color: black;
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: 25px;
   transition: all 0.4s ease-in-out;
+  
 }
 
 #contact .form-control:focus {

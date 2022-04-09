@@ -41,9 +41,9 @@ function ContactForm() {
           <div class="container">
                <div class="row">
      
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12 ">
                          <div class="contact-form">
-                              <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                              <div class="wow fadeInUp " data-wow-delay="0.2s">
                                    <h1 class="color-black">Contact Me</h1>
                                   
                               </div>
@@ -71,6 +71,7 @@ function ContactForm() {
                   </div>
                 </form>
                 </div>
+                
                 </div>
                 </div>
                 </div>
