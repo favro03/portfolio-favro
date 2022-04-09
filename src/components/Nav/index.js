@@ -12,15 +12,21 @@ function Nav (props) {
  return (
 
         <header className="sticky-div">
-            <img className="img2"  src={logoImage}  style={{ width: "8%"}} alt="logo"  />
+          
+            <h1>Tracy Favro</h1>  
+            <div className='name'>
+           
+            </div>
+            
           <nav >
             <div className="container-fluid">
                
-                <div >
+                <div className="topnav" id="myTopnav">
                     <ul flex-row>
                         {headings.map((headings, index) => (
                             <li key={index} className="nav-item">
                                 <a className={`nav-link + ${headings === currentPage && 'active'}`} aria-current="page" href={`#${headings.toLocaleLowerCase}`}onClick={() => handlePageChange(headings)}>{headings}</a>
+                               
                             </li>
                         ))}
                     </ul>

@@ -34,14 +34,14 @@ function ContactForm() {
           }
       }
         return (
-          <section id="contact" class="parallax-section">
-          <div class="container">
-               <div class="row">
+          <section id="contact" className="parallax-section">
+          <div className="container">
+               <div className="row">
      
-                    <div class="col-md-6 col-sm-12 ">
-                         <div class="contact-form">
-                              <div class="wow fadeInUp " data-wow-delay="0.2s">
-                                   <h1 class="color-black">Contact Me</h1>
+                    <div className="col-md-6 col-sm-12 ">
+                         <div className="contact-form">
+                              <div clclassNameass="wow fadeInUp " data-wow-delay="0.2s">
+                                   <h1 className="color-black">Contact Me</h1>
                                   
                               </div>
               <div id="contact-form">
@@ -63,8 +63,8 @@ function ContactForm() {
                       <p className="error-text">{errorMessage}</p>
                     </div>
                   )}
-                  <div class="wow fadeInUp col-md-6 col-sm-8" data-wow-delay="1.6s">
-                    <input name="submit" type="submit" class="form-control" id="submit" value="Send"/>
+                  <div className="wow fadeInUp col-md-6 col-sm-8" data-wow-delay="1.6s">
+                    <input name="submit" type="submit" className="form-control" id="submit" value="Send"/>
                   </div>
                 </form>
                 </div>

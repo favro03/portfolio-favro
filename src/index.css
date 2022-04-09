@@ -7,31 +7,24 @@ body {
   overflow-x: hidden;
 }
 
-html,body {
-  width: 100%;
-  height: 100%;
-}
-
+html, body {
+  margin: 0;
+  padding: 0;
+}  
 
 /*---------------------------------------
     Typorgraphy              
 -----------------------------------------*/
-
-h1,h2,h3,h4,h5,h6 {
+h2,h3,h4,h5,h6 {
   font-style: normal;
   font-weight: 300;
   color: black;
-}
+  display: flex;
+}h1
 
-h1,h2,h3 {
-  font-weight: 300;
-}
 
-h1 {
-  font-size: 42px;
-  padding-bottom: 14px;
-  margin-bottom: 0px;
-}
+
+
 
 h2 {
   color: black ;
@@ -50,6 +43,7 @@ h3 {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding-top: 6px;
+  text-align: center;
 }
 
 h5 {
@@ -101,9 +95,9 @@ p {
 
 .section-title {
   position: relative;
-  background: #E3AE57;
-  opacity: 0.4;
-  color: black;
+  background: rgba(227, 174, 87, 0.4);
+
+
 }
 .background {
   background: #E3AE57;
@@ -113,10 +107,6 @@ p {
 
 
 
-#experience .experience-thumb,
-#education .education-thumb  {
-  padding: 22px 42px 42px 42px;
-}
 
 #service,
 #quotes,
@@ -260,7 +250,7 @@ a:hover, a:active, a:focus {
 
 /*header styling*/
 header {
-  padding: 10px 10px;
+
   background: white;
   display: flex;
   justify-content: space-between;
@@ -271,13 +261,10 @@ header {
   z-index: 9999;
 }
 
-header h1 {
-  background-color: var(--secondary-color);
-  text-align: right;
-  width: 400px;
-  padding: 20px;
-  position: relative;
-  right: 35px;
+
+.name{
+  text-align: left;
+  margin-right: 320px;
 }
 .img2 {
   float: left;
@@ -308,9 +295,7 @@ header nav ul {
   padding: 20px 10px;
   border-spacing: 10px;
 }
-header nav ul li {
-  padding: 0 10px;
-}
+
 
 header nav ul li a {
 
@@ -340,7 +325,7 @@ header nav ul li a {
     .custom-navbar.top-nav-collapse {
         background: #ffffff;
         box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
-        padding: 0;
+ 
         
     }
 
@@ -352,16 +337,8 @@ header nav ul li a {
     Home section              
 -----------------------------------------*/
 
-#home h1 {
-  padding-bottom: 18px;
-}
 
-#home .col-md-6 {
-  background: #f1e2d7;
-/* light blue color: #c3eafd; */
-  padding-right: 0;
-  padding-left: 0;
-}
+
 
 #home .home-img {
   background: url('../src/assets/hero.jpg') no-repeat;
@@ -377,7 +354,10 @@ header nav ul li a {
   background-position: 80%;
 }
 
-
+.text-right {
+  position: relative;
+  text-align: right;
+}
 
 .hero-cta {
   width: 35%;
@@ -397,7 +377,7 @@ header nav ul li a {
 
 
 /*---------------------------------------
-    Service section              
+    Portfolio section              
 -----------------------------------------*/
 
 #service {
@@ -411,18 +391,24 @@ header nav ul li a {
 
 #service .service-thumb {
   padding: 52px 22px 52px 22px;
+  text-align: center;
 }
 
 #service .service-thumb .fa {
   font-size: 42px;
+  text-align: center;
   padding-bottom: 22px;
+}
+.padding {
+  margin-left: 5%;
+  padding-top: 5px;
 }
 
 li {
   list-style-type: none;
 }
 /*---------------------------------------
-    Portfolio section              
+Resume section              
 -----------------------------------------*/
 .flex-row {
   display: flex;
@@ -434,6 +420,11 @@ li {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+.text-center {
+  position: relative;
+  text-align: right;
+  justify-content: center;
 }
 .font {
   font-size: .8rem;
@@ -590,7 +581,7 @@ footer {
    Mobile Responsive         
 -----------------------------------------*/
 
-@media only screen and (max-width: 580px) {
+/* @media only screen and (max-width: 580px) {
   h1 {
     font-size: 32px;
   }
@@ -617,23 +608,7 @@ footer {
     padding-bottom: 12px;
   }
 
-  #home .container,
-  #about .container, 
-  #experience .container,
-  #service .container,
-  #education .container,
-  #contact .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
 
-  #about .col-md-3,
-  #experience .col-md-6,
-  #education .col-md-6,
-  #contact .col-md-3 {
-    padding: 0;
-    margin: 0;
-  }
 
   .background-image {
     position: relative;
@@ -648,5 +623,96 @@ footer {
 
   footer {
     padding: 40px 0;
+  }
+} */
+
+/*Media Query Section*/
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px) {
+  header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+  }
+  .section-title {
+    padding-bottom: 12px;
+  }
+  header h1 {
+      width: 100%;
+      text-align:center;
+  }
+
+  header nav ul {
+      margin-top: 20px;
+      width:100%;
+      justify-content:center;
+  }
+
+  header nav ul li a {
+      font-size: 20px;
+  }
+
+  footer h2, footer div {
+      text-align: center;
+      width: 100%;
+  }
+
+  .hero-cta, .hero-form {
+      width: 100%;
+  }
+
+  .hero-cta {
+      text-align: center;
+  }
+
+
+
+  .trainer {
+      flex: 0 70%;
+  }
+
+  .contact-info iframe {
+      flex: 1 100%;
+  }
+}
+/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px) {
+  section {
+      padding: 30px 15px;
+  }
+
+
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px) {
+  
+
+  .hero-cta button {
+      width: 100%;
+  }
+
+  .section-title {
+      width: 95%;
+  }
+  
+  .intro p {
+      width: 100%;
+  }
+
+  .trainer {
+      flex: 0 100%;
+  }
+
+  .contact-info {
+      text-align:center;
+  }
+
+  .contact-info > * {
+      flex: 0 100%;
+  }
+
+  .contact-form {
+      order: 3;
   }
 }

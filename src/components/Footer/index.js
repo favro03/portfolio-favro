@@ -10,9 +10,9 @@ function Footer(){
                 <div className="col-md-12 col-sm-12">
                         
                     <ul className="wow fadeInUp social-icon" data-wow-delay="2s">
-                        <li><a href="https://github.com/favro03" class="fa-brands fa-github fa-xl"></a></li>
-                        <li><a href="https://www.linkedin.com/in/tracy-favro-51297072/" class="fa-brands fa-linkedin-in fa-xl"></a></li>
-                        <li><a href="https://twitter.com/TracyWegner1" class="fa fa-twitter"></a></li>
+                        <li><a href="https://github.com/favro03" className="fa-brands fa-github fa-xl"></a></li>
+                        <li><a href="https://www.linkedin.com/in/tracy-favro-51297072/" className="fa-brands fa-linkedin-in fa-xl"></a></li>
+                        <li><a href="https://twitter.com/TracyWegner1" className="fa fa-twitter"></a></li>
                             
                     </ul>
                 </div>

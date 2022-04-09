@@ -110,8 +110,10 @@ function Portfolio() {
     ]
 
     return (
-        <section className="bg-yellow">
-            <h1 >Portfolio</h1>
+        <section className="bg-yellow ">
+            <div className='padding'>
+            <h1>Portfolio</h1>
+            </div>
             <p></p>
             <div className="flex-row justify-content-around container2">
                 {projects.map((project) => (
