@@ -110,10 +110,10 @@ function Portfolio() {
     ]
 
     return (
-        <div>
+        <section className="bg-yellow">
             <h1 >Portfolio</h1>
             <p></p>
-            <div className="flex-row justify-content-around container ">
+            <div className="flex-row justify-content-around container2">
                 {projects.map((project) => (
                     <div key={project.title} className='m-3 p-3 rounded shadow-lg '>
                         <h2>{project.title}</h2>
@@ -126,79 +126,13 @@ function Portfolio() {
                         />
                         </a>
                         <div className="m-3 space">
-                            <a href={project.repoLink} className='text-decoration-none'>GitHub Repo Link</a>
+                            <a href={project.repoLink} className='hover'>GitHub Repo Link</a>
                         </div>
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     );
 }
 
 export default Portfolio;
-// import React from "react";
-// import ProjectList from "../ProjectList";
-
-// function Portfolio(props) {
-//   return (
-//     <section>
-//         <h1>Portfolio</h1>
-//       <div className="flex-row">
-//         <ProjectList
-//           image={require("../../assets/images/Feed-Me.png")}
-//           title="Feed Me"
-//           appLink=""
-//           repoLink=""
-//         ></ProjectList>
-//         <ProjectList
-//           image={require("../../assets/images/PWAbudgetTracker.png")}
-//           title="Budget Tracker"
-//           appLink=""
-//           repoLink=""
-//         ></ProjectList>
-//         <ProjectList
-//           image={require("../../assets/images/Scheduler.png")}
-//           title="Scheduler"
-//           appLink=""
-//           repoLink=""
-//         ></ProjectList>
-//         <ProjectList
-//           image={require("../../assets/images/techBlog.png")}
-//           title="Tech Blog"
-//           appLink=""
-//           repoLink=""
-//         ></ProjectList>
-//         <ProjectList
-//           image={require("../../assets/images/WeatherDashboard.png")}
-//           title="Weather Dashboard"
-//           appLink=""
-//           repoLink=""
-//         ></ProjectList>
-//         <ProjectList
-//           image={require("../../assets/images/WordFactsdefault.png")}
-//           title="WOrd Facts"
-//           appLink=""
-//           repoLink=""
-//         ></ProjectList>
-        
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default Portfolio;
-// import React from 'react';
-// import ProjectListList from '../ProjectListList';
-// import { capitalizeFirstLetter } from '../../utils/helpers';
-
-// function Portfolio(props) {
-//   const { currentCategory } = props;
-//   return (
-//     <section>
-//       <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
-//       <p>{currentCategory.description}</p>
-//       <ProjectListList category={currentCategory.name} />
-//     </section>
-//   );
-// }
-// export default Portfolio;

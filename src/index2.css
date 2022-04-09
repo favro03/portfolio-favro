@@ -119,10 +119,10 @@ p {
   font-size: 1.1rem;
   margin-top: 0;
 }
-.font {
+ {
   font-size: .8rem;
   font-style: italic;
-}
+}.font
 
 a {
   color: var(--tertiary);
@@ -209,7 +209,7 @@ textarea {
 	padding: 5px;
 }
 
-.container {
+.container2 {
   width: 85%;
  justify-content: center;
   max-width: 1200px;

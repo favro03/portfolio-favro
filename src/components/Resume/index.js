@@ -9,7 +9,7 @@ function Resume(){
      <div class="container">
           <div class="row">
 
-               <div class="col-md-3 col-sm-6">
+               <div class="bg-yellow col-md-3 col-sm-6">
                     <div class="wow fadeInUp color-white service-thumb" data-wow-delay="0.8s">
                          <i class="fa fa-desktop"></i>
                               <h3>Resume</h3>

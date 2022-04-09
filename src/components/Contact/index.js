@@ -33,9 +33,6 @@ function ContactForm() {
             setFormState({ ...formState, [e.target.name]: e.target.value });
           }
       }
-      
-      
-
         return (
           <section id="contact" class="parallax-section">
           <div class="container">
