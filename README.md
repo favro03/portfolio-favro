@@ -1,8 +1,22 @@
-# Getting Started with Create React App
+# React Portfolio
 
+## Description
+  My portfolio of work created useing React, xml, and css.
+
+## Table of Contents
+* [Usage](#usage)
+* [Installation](#installation)
+* [License](#license)
+* [Questions](#questions)
+
+## Usage
+Access the deployed app here:  https://favro03.github.io/portfolio-favro/
+
+A screenshot of the application can be seen here:
+![Budget Tracker](./src/assets/Profile.png)
+
+## Installation
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
@@ -68,3 +82,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## License
+[MIT License](https://choosealicense.com/licenses/mit/)
+      
+## Questions
+You can view the repo here [GitHub Repo](https://github.com/favro03/budget-tracker-PWA)
+
+[Contact Us](mailto:wetr9902@gmail.com)
+  
