@@ -379,6 +379,17 @@ header nav ul li a {
 /*---------------------------------------
     Portfolio section              
 -----------------------------------------*/
+#btn input[type="submit"]:hover {
+  background: #887a63;
+  border-color: #E3AE57;
+  color: black;
+  width: 300px;
+}
+.button input{
+  margin-top: 5px;
+  background: #E9724C;
+  width: 300px;
+}
 
 #service {
   background: #E9724C;
