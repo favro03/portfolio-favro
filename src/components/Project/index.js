@@ -1,10 +1,17 @@
 const projects = [
     {
         title: 'Feed Me',
-        description: 'Express/Handlebars/Cloudinary',
+        description: 'RESTful API/GraphQL/Apollo/MERN/React/MongoDB',
         liveLink: 'https://stark-wave-09776.herokuapp.com/',
         repoLink: 'https://github.com/favro03/project-feedme',
         image: require('../../assets/images/Feed-Me.png')
+    },
+    {
+        title: 'Book Search Engine',
+        description: 'Express/Handlebars/Cloudinary',
+        liveLink: 'https://shielded-sands-10016.herokuapp.com/',
+        repoLink: 'https://github.com/favro03/book-search-engine',
+        image: require('../../assets/images/search.png')
     },
     {
         title: 'Word Facts',
@@ -103,6 +110,13 @@ const projects = [
         liveLink: 'https://www.awesomescreenshot.com/video/7217784?key=62185f14fde5bdc574edd0c2ecc83ba9',
         repoLink: 'https://github.com/favro03/team-profile-generator',
         image: require('../../assets/images/TeamProfile.png')
-    }  
+    },
+    {
+        title: 'TaskMaster-Pro',
+        description: 'JavaScript/DOM/HTML/CSS',
+        liveLink: 'https://favro03.github.io/taskmaster-pro/',
+        repoLink: 'https://github.com/favro03/taskmaster-pro',
+        image: require('../../assets/images/taskmaster.png')
+    }    
 ]
 export default projects
