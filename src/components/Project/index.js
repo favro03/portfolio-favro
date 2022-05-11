@@ -1,5 +1,12 @@
 const projects = [
     {
+        title: 'Shop Shine',
+        description: 'GraphQL/Apollo/MERN/React/MongoDB',
+        liveLink: 'https://serene-sea-72116.herokuapp.com/',
+        repoLink: 'https://github.com/rpkrupali1/shop-shine',
+        image: require('../../assets/images/finalProject.png')
+    },
+    {
         title: 'Feed Me',
         description: 'RESTful API/GraphQL/Apollo/MERN/React/MongoDB',
         liveLink: 'https://stark-wave-09776.herokuapp.com/',
