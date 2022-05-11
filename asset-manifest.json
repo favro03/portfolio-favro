@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio-favro/static/css/main.52984e06.css",
+    "main.js": "/portfolio-favro/static/js/main.ef5a8102.js",
+    "static/js/787.b98215df.chunk.js": "/portfolio-favro/static/js/787.b98215df.chunk.js",
+    "static/media/runbuddy.png": "/portfolio-favro/static/media/runbuddy.6bcc1313c70e0bcba119.png",
+    "static/media/finalProject.png": "/portfolio-favro/static/media/finalProject.e243a3478d8d2f1ca958.png",
+    "static/media/hero.jpg": "/portfolio-favro/static/media/hero.661e42447291dc499ab2.jpg",
+    "static/media/Feed-Me.png": "/portfolio-favro/static/media/Feed-Me.0cf3d05be1214e7cc6dd.png",
+    "static/media/commandLinePrompts.png": "/portfolio-favro/static/media/commandLinePrompts.66b7a1c2ea3f3e85130e.png",
+    "static/media/search.png": "/portfolio-favro/static/media/search.3039c3818fd8359461d3.png",
+    "static/media/taskmaster.png": "/portfolio-favro/static/media/taskmaster.af0da1826a7a32c4ed4e.png",
+    "static/media/ecommerce.png": "/portfolio-favro/static/media/ecommerce.83f93e3eea82b689b1de.png",
+    "static/media/Resume.pdf": "/portfolio-favro/static/media/Resume.9299140fe8db7210e8b2.pdf",
+    "static/media/techBlog.png": "/portfolio-favro/static/media/techBlog.37e2c5c013e4208475b3.png",
+    "static/media/WeatherDashboard.png": "/portfolio-favro/static/media/WeatherDashboard.b0f32b3ee2abb3fe7b45.png",
+    "static/media/SocialNetwork.png": "/portfolio-favro/static/media/SocialNetwork.29833ba0dde1a2e91252.png",
+    "static/media/employeeTrackerApp.png": "/portfolio-favro/static/media/employeeTrackerApp.a7adc8b2d73c18addefc.png",
+    "static/media/WordFactsdefault.png": "/portfolio-favro/static/media/WordFactsdefault.c570af22d79cc16f6e97.png",
+    "static/media/Scheduler.png": "/portfolio-favro/static/media/Scheduler.a0175dc13ad9646b5a35.png",
+    "static/media/TeamProfile.png": "/portfolio-favro/static/media/TeamProfile.2bbc43c2ca2f8e70edac.png",
+    "static/media/Quiz.png": "/portfolio-favro/static/media/Quiz.b6d036002a087199de14.png",
+    "static/media/NoteTaker2.png": "/portfolio-favro/static/media/NoteTaker2.dfa76b7dc141944bf4bb.png",
+    "static/media/PWAbudgetTracker.png": "/portfolio-favro/static/media/PWAbudgetTracker.b0245322e9806a342561.png",
+    "static/media/passwordgenerator.png": "/portfolio-favro/static/media/passwordgenerator.95a8234730ce17c66b57.png",
+    "index.html": "/portfolio-favro/index.html",
+    "main.52984e06.css.map": "/portfolio-favro/static/css/main.52984e06.css.map",
+    "main.ef5a8102.js.map": "/portfolio-favro/static/js/main.ef5a8102.js.map",
+    "787.b98215df.chunk.js.map": "/portfolio-favro/static/js/787.b98215df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52984e06.css",
+    "static/js/main.ef5a8102.js"
+  ]
+}
